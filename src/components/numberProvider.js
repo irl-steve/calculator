@@ -7,6 +7,7 @@ const NumberProvider = props => {
   const [storedNumber, setStoredNumber] = useState('');
   const [functionType, setFunctionType] = useState('');
 
+  //if the value selected is not a decimal point then append the value to the current value, this limits the decimal points to one
   const handleSetDisplayValue = num => {
     if ((!number.includes('.') || num !== '.') && number.length < 8) {
       setNumber(`${(number + num).replace(/^0+/, '')}`);
@@ -57,6 +58,7 @@ const NumberProvider = props => {
     }
   };
 
+  //all maths functions convert the values from string to number values for computation
   const doMath = () => {
     if (number && storedNumber) {
       switch (functionType) {
