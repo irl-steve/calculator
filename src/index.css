@@ -1,13 +1,86 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+html, body{
+  height: 100%;
+  color: #FFFCF9;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+
+.numberPad, .functionButtonSet{
+  display: grid;
+  width: auto;
+  margin: auto;
+  /* grid-column-gap: 10px; */
+}
+
+.numberPad {
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.functionButtonSet{
+  grid-template-columns: repeat(1, 1fr);
+  grid-template-rows: repeat(4, 1fr);
+}
+
+.keyPad{
+    margin: auto;
+    padding: 1em;
+}
+
+.left{
+  width: 70%;
+  float: left;
+}
+
+.right {
+    margin-left: 70%;
+}
+
+.calculator{
+  margin: auto;
+  background: #FF6978;
+  font-family: Verdana, Geneva, sans-serif;
+}
+
+.display{
+  border: 1px solid;
+  background: #340068;
+  /* font-size: 1.5em; */
+  color: #FFFCF9;
+  padding: 1em;
+}
+
+button{
+  border: 3px solid #FF6978;
+  font-family: Verdana, Geneva, sans-serif;
+  font-size: 1.5em;
+  height: 3em;
+  /* width: 3em; */
+  color:  #340068;
+  border-radius: 10px;
+}
+
+.topButtons{
+  width: 50%;
+  background: #B1EDE8;
+}
+
+.functionButton{
+  background: #B1EDE8;
+}
+
+.functionButton:hover, .topButtons:hover{
+  background: #54B3AC;
+}
+
+.equalButton{
+  background: #EAD2AC;
+}
+
+.equalButton:hover{
+  background: #C6A776;
+  border-color: white;
 }
