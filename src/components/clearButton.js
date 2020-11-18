@@ -1,6 +1,6 @@
 import React, { useContext } from 'react';
 import { NumberContext } from './numberProvider.js';
-import topButtons from 'C:/Users/Stephen/Documents/Side Projects/calculator/src/index.css';
+import topButtons from 'https://github.com/irl-steve/calculator/blob/master/src/index.css';
 
 const ClearButton = () => {
   const { handleClearValue } = useContext(NumberContext);
