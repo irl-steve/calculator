@@ -1,6 +1,6 @@
 import React from 'react';
 import Key from './key.js';
-import numberPad from 'C:/Users/Stephen/Documents/Side Projects/calculator/src/index.css';
+import numberPad from 'https://github.com/irl-steve/calculator/blob/master/src/index.css';
 import ToggleNegativeButton from './toggleNegative.js';
 
 const NumberPad = () => (
