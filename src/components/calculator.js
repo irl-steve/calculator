@@ -4,8 +4,8 @@ import Display from './display.js';
 import BackButton from './backButton.js';
 import ClearButton from './clearButton.js';
 import FunctionButtonSet from './functionButtons.js';
-import left from 'C:/Users/Stephen/Documents/Side Projects/calculator/src/index.css';
-import right from 'C:/Users/Stephen/Documents/Side Projects/calculator/src/index.css';
+import left from 'https://github.com/irl-steve/calculator/blob/master/src/index.css';
+import right from 'https://github.com/irl-steve/calculator/blob/master/src/index.css';
 
 const Calculator = () => (
   <div className="calculator">
