@@ -1,6 +1,6 @@
 import React, { useContext } from 'react';
 import { NumberContext } from './numberProvider.js';
-import functionButton from 'C:/Users/Stephen/Documents/Side Projects/calculator/src/index.css';
+import functionButton from 'https://github.com/irl-steve/calculator/blob/master/src/index.css';
 
 const FunctionButton = ({ buttonValue }) => {
   const { handleSetCalcFunction } = useContext(NumberContext);
