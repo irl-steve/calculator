@@ -1,6 +1,6 @@
 import React, { useContext } from 'react';
 import { NumberContext } from './numberProvider.js';
-import display from 'C:/Users/Stephen/Documents/Side Projects/calculator/src/index.css';
+import display from 'https://github.com/irl-steve/calculator/blob/master/src/index.css';
 
 const Display = () => {
   const { number, storedNumber, functionType } = useContext(NumberContext);
