@@ -1,7 +1,7 @@
 import React from 'react';
 import FunctionButton from './functionButton.js';
 import EqualButton from './equalButton.js';
-import functionButtonSet from 'C:/Users/Stephen/Documents/Side Projects/calculator/src/index.css';
+import functionButtonSet from 'https://github.com/irl-steve/calculator/blob/master/src/index.css';
 
 const FunctionButtonSet = () => (
   <div className = "functionButtonSet">
